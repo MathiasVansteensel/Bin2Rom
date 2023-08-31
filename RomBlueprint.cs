@@ -1,4 +1,5 @@
 ﻿// Root myDeserializedClass = JsonSerializer.Deserialize<Root>(myJsonResponse);
+using Scrap_mechanic_ROM_builder__BIN_2_ROM_;
 using System.Text.Json.Serialization;
 public class RomBlueprint
 {
@@ -88,6 +89,8 @@ public class RomBlueprint
 
 		[JsonPropertyName("z")]
 		public int Z { get; set; }
+
+		public static implicit operator Pos(Vector3I vector) => new Pos { X = vector.X, Y = vector.Y, Z = vector.Z };
 	}
 }
 

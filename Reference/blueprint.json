@@ -1,0 +1,555 @@
+{
+    "bodies": [
+        {
+            "childs": [
+                {
+                    "color": "E2DB13",
+                    "controller": {
+                        "containers": null,
+                        "controllers": null,
+                        "data": "kExVQQAAAAEIEQ",
+                        "id": 1646,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 19,
+                        "y": 8,
+                        "z": 4
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": 2,
+                    "zaxis": -3
+                },
+                {
+                    "color": "EEEEEE",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1650
+                            },
+                            {
+                                "id": 1658
+                            },
+                            {
+                                "id": 1657
+                            },
+                            {
+                                "id": 1656
+                            },
+                            {
+                                "id": 1655
+                            }
+                        ],
+                        "data": "kExVQQAAAAEIAA",
+                        "id": 1648,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 19,
+                        "y": 10,
+                        "z": 4
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": 2,
+                    "zaxis": -3
+                },
+                {
+                    "color": "D02525",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1649
+                            }
+                        ],
+                        "data": "4ExVQQAAAAEEAAAAAjk2",
+                        "id": 1647,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 19,
+                        "y": 10,
+                        "z": 3
+                    },
+                    "shapeId": "d8296109-2ffb-4efb-819a-54bd8cadf549",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "0A3EE2",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1646
+                            }
+                        ],
+                        "data": "kExVQQAAAAEIAg",
+                        "id": 1649,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 19,
+                        "y": 9,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "7F7F7F",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1649
+                            }
+                        ],
+                        "data": "kExVQQAAAAEICQ",
+                        "id": 1650,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 19,
+                        "y": 12,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "0A3EE2",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1646
+                            }
+                        ],
+                        "data": "kExVQQAAAAEIAg",
+                        "id": 1651,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 15,
+                        "y": 9,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "0A3EE2",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1646
+                            }
+                        ],
+                        "data": "kExVQQAAAAEIAg",
+                        "id": 1652,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 16,
+                        "y": 9,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "0A3EE2",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1646
+                            }
+                        ],
+                        "data": "kExVQQAAAAEIAg",
+                        "id": 1653,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 17,
+                        "y": 9,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "0A3EE2",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1646
+                            }
+                        ],
+                        "data": "kExVQQAAAAEIAg",
+                        "id": 1654,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 18,
+                        "y": 9,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "7F7F7F",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1651
+                            }
+                        ],
+                        "data": "kExVQQAAAAEICQ",
+                        "id": 1655,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 15,
+                        "y": 12,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "7F7F7F",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1652
+                            }
+                        ],
+                        "data": "kExVQQAAAAEICQ",
+                        "id": 1656,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 16,
+                        "y": 12,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "7F7F7F",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1653
+                            }
+                        ],
+                        "data": "kExVQQAAAAEICQ",
+                        "id": 1657,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 17,
+                        "y": 12,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "7F7F7F",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1654
+                            }
+                        ],
+                        "data": "kExVQQAAAAEICQ",
+                        "id": 1658,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 18,
+                        "y": 12,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "222222",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1655
+                            }
+                        ],
+                        "data": "kExVQQAAAAEIAA",
+                        "id": 1659,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 15,
+                        "y": 11,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "222222",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1656
+                            },
+                            {
+                                "id": 1659
+                            }
+                        ],
+                        "data": "kExVQQAAAAEIAA",
+                        "id": 1660,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 16,
+                        "y": 11,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "222222",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1657
+                            },
+                            {
+                                "id": 1660
+                            }
+                        ],
+                        "data": "kExVQQAAAAEIAA",
+                        "id": 1661,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 17,
+                        "y": 11,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "222222",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1658
+                            },
+                            {
+                                "id": 1661
+                            }
+                        ],
+                        "data": "kExVQQAAAAEIAA",
+                        "id": 1662,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 18,
+                        "y": 11,
+                        "z": 3
+                    },
+                    "shapeId": "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "D02525",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1651
+                            }
+                        ],
+                        "data": "8ARMVUEAAAABBAAAAAc1NjI1OTI5",
+                        "id": 1663,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 15,
+                        "y": 10,
+                        "z": 3
+                    },
+                    "shapeId": "d8296109-2ffb-4efb-819a-54bd8cadf549",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "D02525",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1652
+                            }
+                        ],
+                        "data": "4ExVQQAAAAEEAAAAAjU4",
+                        "id": 1664,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 16,
+                        "y": 10,
+                        "z": 3
+                    },
+                    "shapeId": "d8296109-2ffb-4efb-819a-54bd8cadf549",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "19E753",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1662
+                            },
+                            {
+                                "id": 1650
+                            }
+                        ],
+                        "id": 1665,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 20,
+                        "y": 10,
+                        "z": 3
+                    },
+                    "shapeId": "efbd14a8-f896-4268-a273-b2b382db520c",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "DF7F00",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1662
+                            },
+                            {
+                                "id": 1661
+                            },
+                            {
+                                "id": 1660
+                            },
+                            {
+                                "id": 1659
+                            }
+                        ],
+                        "data": "0ExVQQAAAAEEAAAAATE",
+                        "id": 1666,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 19,
+                        "y": 11,
+                        "z": 3
+                    },
+                    "shapeId": "d8296109-2ffb-4efb-819a-54bd8cadf549",
+                    "xaxis": -2,
+                    "zaxis": -1
+                },
+                {
+                    "color": "D02525",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1653
+                            }
+                        ],
+                        "data": "4ExVQQAAAAEEAAAAAjQy",
+                        "id": 1667,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 16,
+                        "y": 9,
+                        "z": 3
+                    },
+                    "shapeId": "d8296109-2ffb-4efb-819a-54bd8cadf549",
+                    "xaxis": 2,
+                    "zaxis": 1
+                },
+                {
+                    "color": "D02525",
+                    "controller": {
+                        "containers": null,
+                        "controllers": [
+                            {
+                                "id": 1654
+                            }
+                        ],
+                        "data": "8ABMVUEAAAABBAAAAAMyNTU",
+                        "id": 1668,
+                        "joints": null
+                    },
+                    "pos": {
+                        "x": 17,
+                        "y": 9,
+                        "z": 3
+                    },
+                    "shapeId": "d8296109-2ffb-4efb-819a-54bd8cadf549",
+                    "xaxis": 2,
+                    "zaxis": 1
+                }
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "contentId": "b7443f95-67b7-4f1e-82f4-9bef0c62c4b3",
+            "name": "The Modpack Continuation",
+            "shapeIds": [
+                "289e08ef-e3d8-4f1b-bc10-a0bcf36fa0ce",
+                "d8296109-2ffb-4efb-819a-54bd8cadf549",
+                "efbd14a8-f896-4268-a273-b2b382db520c"
+            ],
+            "steamFileId": 2448492759
+        }
+    ],
+    "version": 4
+}

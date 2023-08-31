@@ -137,21 +137,54 @@ class Program
 		return "[NO USERNAME FOUND]";
 	}
 
-	static void GenerateRomBlueprint() 
+	static void GenerateRomBlueprint(byte bytesPerCounter = 3, params byte[] romBuffer) 
 	{
-		int currentX = 0, currentY = 0, currentZ = 0;
+		Vector3I inputGatePos = new(0);
+		Vector3I outputGatePos = new(inputGatePos.X, inputGatePos.Y + 1, inputGatePos.Z);
+		int currentX = 0, currentY = 0, currentZ = 0, inputGateId = 0, outputGateId = 1;
+
+		//main blueprint structure & dependencies
 		RomBlueprint blueprint = new(); //auto sets version to v4
 		blueprint.Dependencies.Add(ScrapReference.ModPackDependency);
 		RomBlueprint.Body body = new();
 		blueprint.Bodies.Add(body);
-		//INPUT
+
+		//INPUT gate
 		RomBlueprint.Child inputChild = new RomBlueprint.Child
 		{
 			Color = ScrapReference.Color.White,
-			Controller = new RomBlueprint.Controller { Id = 0 },
-			Pos = new RomBlueprint.Pos { X = currentX, Y = currentY, Z = currentZ },
-			ShapeId = ""
-		}
-		
+			Controller = new RomBlueprint.Controller 
+			{
+				Id = inputGateId,
+				Data = "kExVQQAAAAEIAA", //blockdata for "+" function
+			},
+			Pos = inputGatePos,
+			ShapeId = ScrapReference.Block.MathBlockUUID,
+			//idk how rotations work in this game, but this ain't it chief
+			Xaxis = 2,
+			Zaxis = -3,
+		};
+
+		//OUTPUT gate
+		RomBlueprint.Child outputChild = new RomBlueprint.Child
+		{
+			Color = ScrapReference.Color.Yellow,
+			Controller = new RomBlueprint.Controller
+			{
+				Id = outputGateId,
+				Data = "kExVQQAAAAEIEQ", //blockdata for "ABS" function
+			},
+			Pos = outputGatePos,
+			ShapeId = ScrapReference.Block.MathBlockUUID,
+			Xaxis = 2,
+			Zaxis = -3,
+		};
+
+		//TODO: calculate volume of final rom (with romBuffer.Length and bytesPerCounter)
+		//		loop over positions in volume (per row of blocktype ("=", "X", "+", ...))
+		//		add connections
+		//		add options for size of final rom
+		//		make cli
+		//		serialize
 	}
 }
